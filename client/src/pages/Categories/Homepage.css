@@ -1,0 +1,63 @@
+.t-wrapper {
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.left {
+  width: 12rem;
+  background: #1b2430;
+}
+
+
+.video-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: start;
+}
+
+#sideBar {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+#sideBar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#sideBar li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+#sideBar li a:hover {
+  color: #17cf97;
+}
+
+.right {
+  width: 100%;
+  border: solid #17cf97;
+  margin-bottom: 5px;
+  background-color: #1b2430;
+  overflow-y: auto;
+  align-items: center;
+}
+
+.right::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+.video-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #17cf97;
+  font-size: 1.1rem;
+}
